@@ -1,0 +1,26 @@
+void    print_loop(int x, char char1, char char2, char char3);
+
+void    rush(int x, int y)
+{
+        print_loop(x, '/', '*', '\');
+        if (y > 2){while (y - 2 != 0){print_loop(x, '*', ' ', '*');y = y - 1;}}if (y > 1){print_loop(x, '\', '*', '/')}}void print_loop(int x, char char1, char char2, char char3)
+{
+        int     i;
+        
+        i = 0;
+        ft_putchar(char1);
+
+        if (x > 2){
+                while (i < x - 1)
+                {
+                        ft_putchar(char2);
+                        i++;
+                }
+
+        if (x > 1)
+        {
+                ft_putchar(char3);
+        }
+}
+
+
